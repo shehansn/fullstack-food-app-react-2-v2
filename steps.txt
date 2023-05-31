@@ -68,13 +68,15 @@ npm install -g firebase-tools
 
 //in cmd terminal
 stripe login
-stripe listen --forward-to http://127.0.0.1:5001/fullstack-food-app-react/us-central1/app/api/products/webhook
+stripe listen --forward-to http://localhost:8000/api/products/webhook
 
 in new terminal 
 
 stripe trigger payment_intent.succeeded
 
-
-
 to run SERVER
 npm run dev
+
+firebase project id- fullstack-food-app-react
+firebase project name -fullstack-food-app-react-v2
+stripe project name - fullstack-food-app-react

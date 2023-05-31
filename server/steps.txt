@@ -1,0 +1,9 @@
+npm init
+npm install express firebase-admin
+
+npm i stripe
+npm i dotenv
+npm i express
+npm i cors
+npm install -g firebase-tools
+npm i nodemon

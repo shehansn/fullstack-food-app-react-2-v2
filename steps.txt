@@ -1,1 +1,80 @@
+IN CLIENT
+npm install -g yarn
+install node
+use yarn to run- yarn start
 
+
+//setup git user first time only (https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+git --version
+git config --global user.name "shehan"
+git config --global user.email "10749822@students.plymouth.ac.uk"
+
+
+remove git credential
+https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account
+
+source control->initialize repository->commit and commit add remote branch_> enter as same name and push
+
+//crete react app on client folder
+yarn create react-app ./
+
+or 
+
+yarn global add create-react-app
+create-react-app my-app
+
+IN SERVER
+firebase login
+firebase init
+
+functions  -> select existing project-> select ->project->javascript->setup eslint yes->install dependencies yes->
+
+
+IN CLIENT
+install tailwind css 
+
+navigate to index. css and
+intsll google font extention 
+ctrl+shipt+p and select google fonts insert css ->selct font jost > enter
+
+yarn add react-router-dom react-icons framer-motion
+
+yarn add firebase
+
+IN CLIENT
+yarn add axios
+yarn add redux react-redux
+yarn add -D tailwind-scrollbar
+
+yarn add material-table
+yarn add @material-ui/core
+yarn add @material-ui/icons
+
+to resolve material table errors 
+yarn add @emotion/react @emotion/styled @material-ui/core @material-ui/icons @mui/icons-material @mui/lab @mui/material @mui/styles
+
+yarn add react-double-scrollbar
+yarn add @coreui/react-chartjs
+yarn add swiper
+yarn add axios
+
+//install stripe in functions folder in serrver
+cd SERVERcd functions
+npm install stripe
+npm i dotenv
+npm i express
+npm i cors
+npm install -g firebase-tools
+
+//in cmd terminal
+stripe login
+stripe listen --forward-to http://127.0.0.1:5001/fullstack-food-app-react/us-central1/app/api/products/webhook
+
+in new terminal 
+
+stripe trigger payment_intent.succeeded
+
+
+
+to run SERVER
+npm run dev

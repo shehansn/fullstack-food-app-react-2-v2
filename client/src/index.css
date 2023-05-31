@@ -11,6 +11,11 @@ body {
         'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .MuiPaper-root {
     width: 100%;
 }

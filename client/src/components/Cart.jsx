@@ -12,7 +12,7 @@ import axios from 'axios'
 
 const Cart = () => {
 
-    const baseURL = "http://127.0.0.1:5001/fullstack-food-app-react/us-central1/app";
+    const baseURL = "http://localhost:8000";
 
     const cartItems = useSelector((state) => state.cartItems);
     const user = useSelector((state) => state.user);

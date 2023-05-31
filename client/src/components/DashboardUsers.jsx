@@ -7,7 +7,7 @@ import { Avatar } from '../assets';
 
 const DashboardUsers = () => {
 
-    const baseURL = "http://127.0.0.1:5001/fullstack-food-app-react/us-central1/app";
+    const baseURL = "http://localhost:8000";
 
     const allUsers = useSelector((state) => state.allUsers);
     const dispatch = useDispatch();

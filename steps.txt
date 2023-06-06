@@ -80,3 +80,5 @@ npm run dev
 firebase project id- fullstack-food-app-react
 firebase project name -fullstack-food-app-react-v2
 stripe project name - fullstack-food-app-react
+
+git repo - shehansn/fullstack-food-app-react-2-v2
